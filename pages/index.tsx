@@ -12,6 +12,7 @@ const Home: NextPage = () => {
     <div className='flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen'>
       <Head>
         <title>Free Photo Enhancer - Aiphotoen</title>
+        <meta name='description' content='Effortlessly enhance your photos with our AI-powered photo enhancer. Boost image resolution, enrich colors, and sharpen details—all with just one click!'>
       </Head>
       <Header />
       <main className='flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-20'>
@@ -25,7 +26,7 @@ const Home: NextPage = () => {
           users
         </a>
         <h1 className='mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl'>
-          Restoring old photos{' '}
+          Photo Enhancer{' '}
           <span className='relative whitespace-nowrap text-[#3290EE]'>
             <SquigglyLines />
             <span className='relative'>using AI</span>
@@ -40,18 +41,18 @@ const Home: NextPage = () => {
         <div className='flex justify-center space-x-4'>
           <a
             className='bg-white rounded-xl text-black font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-gray-100 border'
-            href='https://www.roomgpt.io/'
+            href='https://bitwebtools.com/word-to-pdf'
             target='_blank'
             rel='noreferrer'
           >
-            Check out roomGPT
+            Free Word to PDF
           </a>
 
           <Link
             className='bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80'
             href='/restore'
           >
-            Restore your photos
+            Enhancer your photos
           </Link>
         </div>
         <div className='flex justify-between items-center w-full flex-col sm:mt-10 mt-6'>

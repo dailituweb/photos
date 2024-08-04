@@ -12,9 +12,10 @@ const Home: NextPage = () => {
     <div className='flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen'>
       <Head>
         <title>Free Photo Enhancer - Aiphotoen</title>
-        <meta name='description' content='Effortlessly enhance your photos with our AI-powered photo enhancer. Boost image resolution, enrich colors, and sharpen details—all with just one click!'>
+       
       </Head>
       <Header />
+       <meta name='description' content='Effortlessly enhance your photos with our AI-powered photo enhancer. Boost image resolution, enrich colors, and sharpen details—all with just one click!'>
       <main className='flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-20'>
         <a
           href='https://aiphotoen.com'

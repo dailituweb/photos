@@ -5,7 +5,7 @@ const testimonials = [
     {
       content:
         "Just had early access to this and it's *ridic*. Powered by @vercel x @replicatehq – also very fast.",
-     
+      link: '#',
       author: {
         name: 'Guillermo Rauch',
         role: 'CEO at Vercel',
@@ -15,7 +15,7 @@ const testimonials = [
     {
       content:
         'This is amazing! And in the 🧵 you can see the whole open-source stack instantly deployable to Vercel',
-     
+      link: '#',
       author: {
         name: 'Malte Ubl',
         role: 'CTO at Vercel',
@@ -27,7 +27,7 @@ const testimonials = [
     {
       content:
         'I just used it and am extremely impressed with the website and wanted to express my appreciation for the excellent design and functionality. Keep up the great work!',
-     
+      link: '#',
       author: {
         name: 'Fawaz Adeniji',
         role: 'Software Engineer',
@@ -37,7 +37,7 @@ const testimonials = [
     {
       content:
         'Turning blurred photos into perfectly sharp ones. Works like magic',
-      
+      link: '#',
       author: {
         name: 'Sergei Vinderskikh',
         role: 'CPO at Treeum',
@@ -49,7 +49,7 @@ const testimonials = [
     {
       content:
         "I've just used it and damn I'll keep coming back! This is so good. Great work!",
-      
+      link: '#',
       author: {
         name: 'Himanil Gole',
         role: 'Designer & Founder at CBREX',
@@ -59,7 +59,7 @@ const testimonials = [
     {
       content:
         'Wow, thank you! Tried a few and love it! My small example (pic of father from 70s original on right), really cleaned it up!',
-    
+      link: '#',
       author: {
         name: 'Rod Ellison',
         role: 'Software Engineer',
